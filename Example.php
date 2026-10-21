@@ -1,5 +1,4 @@
 <?php
-use Linkbucks;
 class Post{
 
     public function linkbucks(Linkbucks $linkbucks)

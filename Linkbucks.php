@@ -1,8 +1,11 @@
 <?php
 
+require_once __DIR__ . "/Curl.php";
+
+
 class Linkbucks
 {
-  use Curl;
+  use \Repositories\Curl;
 
    public $data         = array();
    public $originalLink = null;
